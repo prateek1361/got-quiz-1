@@ -51,7 +51,7 @@ function play(question, answer){
     console.log(chalk.blue.bold("Current Score: " + score))
   }else {
     console.log(chalk.red.bold("Wrong!"))
-    score = score - 1;
+    score = score ;
     console.log(chalk.blue.bold("Current Score: " + score))
   }
 }
